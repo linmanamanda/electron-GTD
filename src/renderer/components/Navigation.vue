@@ -24,6 +24,7 @@ export default {
   align-items: center;
   box-sizing: border-box;
   padding: 0 24px;
+  margin-bottom: 2px;
   background-color: #fff;
   border-top: 1px solid #e5e5e5;
   box-shadow: 0 2px 3px -1px #e5e5e5; 
