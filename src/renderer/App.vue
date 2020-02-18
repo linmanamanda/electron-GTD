@@ -11,5 +11,8 @@
 </script>
 
 <style>
-  /* CSS */
+input:focus {
+  border: none;
+  outline: none;
+}
 </style>

@@ -1,25 +1,31 @@
 <template>
   <div class="index">
     <Navigation/>
-    <div>
+    <div class="content">
       <Box/>
-      <List/>
+      <Todo class="content-main"/>
     </div>
   </div>
 </template>
 <script>
 import Navigation from '../components/Navigation';
 import Box from '../components/Box';
-import List from '../components/List';
+import Todo from '../components/Todo';
 export default {
   name: 'index-page',
   components: {
     Navigation,
     Box,
-    List,
+    Todo,
   },
 };
 </script> 
 <style scoped>
+.content {
+  display: flex;
+}
 
+.content-main {
+  flex: 1;
+}
 </style>
