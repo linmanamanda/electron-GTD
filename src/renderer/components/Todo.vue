@@ -48,13 +48,13 @@ export default {
 <style scoped>
 .todo {
   background-color: #f3f4f6;
-  padding: 18px 24px;
+  padding: 12px 18px;
 }
 
 .todo-status {
   display: flex;
   justify-content: space-around;
-  padding: 18px 0 14px 0;
+  padding: 0 8px;
   border-radius: 8px;
   background-color: #fff;
 }
@@ -82,7 +82,7 @@ export default {
   display: flex;
   align-items: center;
   padding-left: 18px;
-  margin-top: 24px;
+  margin-top: 18px;
   border-radius: 8px;
   background-color: #fff;
 }
@@ -93,7 +93,7 @@ export default {
 }
 
 .todo-list {
-  margin-top: 30px;
+  margin-top: 18px;
 }
 
 .todo-item {

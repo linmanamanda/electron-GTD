@@ -54,6 +54,46 @@
             <span>4</span>
           </div>
         </div>
+        <div class="box-item">
+          <div class="box-item-name">
+            <div class="box-item-color"/>
+            <span>今日</span>
+          </div>
+          <div class="box-item-detail">
+            <span>1.7h</span>
+            <span>4</span>
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="box-item-name">
+            <div class="box-item-color"/>
+            <span>FE</span>
+          </div>
+          <div class="box-item-detail">
+            <span>1.7h</span>
+            <span>4</span>
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="box-item-name">
+            <div class="box-item-color"/>
+            <span>今日</span>
+          </div>
+          <div class="box-item-detail">
+            <span>1.7h</span>
+            <span>4</span>
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="box-item-name">
+            <div class="box-item-color"/>
+            <span>FE</span>
+          </div>
+          <div class="box-item-detail">
+            <span>1.7h</span>
+            <span>4</span>
+          </div>
+        </div>
       </div>
     </div>
     <div class="box-add">
@@ -69,13 +109,14 @@ export default {
 </script>
 <style scoped>
 .box {
-  width: 320px;
+  width: 260px;
   display: flex;
   flex-direction: column;
 }
 
 .box-content {
-  padding: 0 10px;
+  padding: 0 8px;
+  flex: 1;
 }
 
 .box-default::after {
@@ -96,7 +137,7 @@ export default {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 18px 16px;
+  padding: 12px 8px;
   border-radius: 8px;
   background-color: #fff;
   font-size: 14px;
